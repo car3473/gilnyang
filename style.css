@@ -186,3 +186,8 @@ body {
 .site-icon {
     width: 5%;
 }
+
+.ad-banner {
+    width: 320;
+    margin: 0 auto;
+}
