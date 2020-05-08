@@ -210,3 +210,8 @@ body {
 .ui-bar {
     background-color: #000000;
 }
+
+.copyright_codepen {
+    font-size: xx-small;
+    text-align: center;
+}

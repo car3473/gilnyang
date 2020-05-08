@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<!--Gilnyang.com    first_made:0506 2020 A1400   last_edited:0509 2020 0618
+<!--Gilnyang.com    copyright and licenses' in
+first_made:0506 2020 A1400   last_edited:0509 2020 0618
 Written by oscar3473
 Email : oscar050309@gmail.com -->
 <html>
@@ -26,6 +27,7 @@ Email : oscar050309@gmail.com -->
         <meta name="naver-site-verification" content="e4db9ca0df0ce878dded8279f8c4998ddce2be36" />
         <title>길냥아 넌누구니</title>
     </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light nav-distance" id="top-navbar">
@@ -35,50 +37,59 @@ Email : oscar050309@gmail.com -->
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/cafe.html">냥카페 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">X</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/aboutmaker.html">제작자에 관하여</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/cafe.html">냥카페 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">X</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/aboutmaker.html">제작자에 관하여</a>
+                    </li>
+                    <!-- 다른 버튼들
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> 
+                    -->
                 </ul>
             </div>
         </nav>
     </header>
+
     <section class="section">
         <h1 class="title">길냥이 종류 찾기다냥</h1>
         <h2 class="subtitle">사진 분석하는데 시간이 좀 걸린다냥</h2>
         <h5 class="subsubtitle">사진삭제 버튼이 뜨면 분석중이라는 거댠!</h5>
     </section>
-    <!-- <section class="site">
-        <div class="mt-10 site-cover d-flex flex-row-reverse"><img src="img/cat.jpg" alt="img_cat" class="site-icon"><a href="" class="site-link">개발자 사이트가기</a></div>
-    </section> -->
+    <!-- youtube / site Link
+    <section class="site">
+    <div class="mt-10 site-cover d-flex flex-row-reverse"><img src="img/cat.jpg" alt="img_cat" class="site-icon"><a href="" class="site-link">개발자 사이트가기</a></div>
+    </section>
+    -->
 
-        <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <!-- <div class="container file-upload"> -->
-        <div class="image-upload-wrap">
-            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-            <div class="drag-text">
-                <h3>여기에 사진을 끌어다 놓거나, 눌러서 파일을 선택하라냥</h3>
-            </div>
-        </div>
-        <div class="file-upload-content">
-            <img class="file-upload-image" id="cat-image" src="#" alt="your image" />
-            <P class="result-message"></P>
-            <div id="label-container"></div>
-            <div class="image-title-wrap">
-                <button type="button" onclick="removeUpload()" class="remove-image">사진삭제
-                    <span class="image-title">사진 업로드</span>
-                </button>
-            </div>
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!-- 
+    <div class="container file-upload">
+    -->
+    <div class="image-upload-wrap">
+        <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+        <div class="drag-text">
+            <h3>여기에 사진을 끌어다 놓거나, 눌러서 파일을 선택하라냥</h3>
         </div>
     </div>
+
+    <div class="file-upload-content">
+        <img class="file-upload-image" id="cat-image" src="#" alt="your image" />
+        <P class="result-message"></P>
+        <div id="label-container"></div>
+        <div class="image-title-wrap">
+            <button type="button" onclick="removeUpload()" class="remove-image">사진삭제
+                <span class="image-title">사진 업로드</span>
+            </button>
+        </div>
+        </div>
+    </div>
+    <!-- 간격 -->
     <pre>
 
 
@@ -94,31 +105,35 @@ Email : oscar050309@gmail.com -->
     </div>
     <div id="webcam-container"></div>
     <div id="disqus_thread"></div>
+    <!-- 간격 -->
+    <pre>
 
-<script>
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE - 댓글기능
-var d = document, s = d.createElement('script');
-s.src = 'https://webb-6.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+    </pre>
+    <!-- 댓글기능 -->
+    <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE - 댓글기능
+    var d = document, s = d.createElement('script');
+    s.src = 'https://webb-6.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <!-- 이미지업로드 및 보이기 -->
     <script>
         function readURL(input) {
             if (input.files && input.files[0]) {
@@ -150,6 +165,7 @@ s.setAttribute('data-timestamp', +new Date());
             $('.image-upload-wrap').removeClass('image-dropping');
         });
     </script>
+    <!-- 분석 -->
     <script type="text/javascript">
         // More API functions here:
         // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
@@ -206,21 +222,23 @@ s.setAttribute('data-timestamp', +new Date());
             }
         }
     </script>
-        <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 </body>
 <foot>
     <!-- class="ui-bar"는 버튼을 추가할 때 여백을 추가하는 것이다. -->
-<div data-role="footer" data-position="fixed" class="ui-bar"> 
-    <div data-role="controlgroup" data-type="horizontal">
+    <div data-role="footer" data-position="fixed" class="ui-bar">
+        <div data-role="controlgroup" data-type="horizontal">
         <a href="#" data-role="button" data-icon="delete">Remove</a>
         <a href="#" data-role="button" data-icon="plus">Add</a>
         <a href="#" data-role="button" data-icon="arrow-u">Up</a>
         <a href="#" data-role="button" data-icon="arrow-d">Down</a>
         </div>
     </div>
-    <!-- Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+    <div class="copyright_codepen">
+        Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </div>
 </foot>
 </html>
