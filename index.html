@@ -51,7 +51,8 @@ Email : oscar050309@gmail.com -->
     </nav>
     <section class="section">
         <h1 class="title">길냥이 종류 찾기다냥</h1>
-        <h2 class="subtitle">시간이 좀 걸린다냥</h2>
+        <h2 class="subtitle">사진 분석하는데 시간이 좀 걸린다냥</h2>
+        <h5 class="subsubtitle">사진삭제 버튼이 뜨면 분석중이라는 거댠!</h5>
     </section>
     <!-- <section class="site">
         <div class="mt-10 site-cover d-flex flex-row-reverse"><img src="img/cat.jpg" alt="img_cat" class="site-icon"><a href="" class="site-link">개발자 사이트가기</a></div>
@@ -62,7 +63,7 @@ Email : oscar050309@gmail.com -->
         <div class="image-upload-wrap">
             <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
             <div class="drag-text">
-                <h3>여기에 사진을 끌어다 놓거나, 눌러서 파일을 선택라냥</h3>
+                <h3>여기에 사진을 끌어다 놓거나, 눌러서 파일을 선택하라냥</h3>
             </div>
         </div>
         <div class="file-upload-content">
@@ -80,7 +81,7 @@ Email : oscar050309@gmail.com -->
 
 
 
-        
+
     </pre>
     <!-- 카카오에드핏 -->
     <div class="ad-banner">
@@ -206,6 +207,15 @@ s.setAttribute('data-timestamp', +new Date());
         <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 </body>
 <foot>
+    <!-- class="ui-bar"는 버튼을 추가할 때 여백을 추가하는 것이다. -->
+<div data-role="footer" data-position="fixed" class="ui-bar"> 
+    <div data-role="controlgroup" data-type="horizontal">
+        <a href="#" data-role="button" data-icon="delete">Remove</a>
+        <a href="#" data-role="button" data-icon="plus">Add</a>
+        <a href="#" data-role="button" data-icon="arrow-u">Up</a>
+        <a href="#" data-role="button" data-icon="arrow-d">Down</a>
+        </div>
+    </div>
     <!-- Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.

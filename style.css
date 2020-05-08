@@ -154,6 +154,11 @@ body {
     text-align: center;
     color: #35365d;
 }
+.subsubtitle {
+    font-family: D2Coding;
+    text-align: center;
+    color: #35465d
+}
 
 @media screen and (max-width: 600px) {
     html { 
@@ -190,4 +195,8 @@ body {
 .ad-banner {
     width: 320px;
     margin: 0 auto;
+}
+
+.ui-bar {
+    background-color: #000000;
 }
