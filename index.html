@@ -62,7 +62,7 @@ Email : oscar050309@gmail.com -->
         <div class="image-upload-wrap">
             <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
             <div class="drag-text">
-                <h3>Drag and drop a file or select add Image</h3>
+                <h3>여기에 사진을 끌어다 놓거나, 눌러서 파일을 선택라냥</h3>
             </div>
         </div>
         <div class="file-upload-content">
@@ -89,6 +89,12 @@ this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL va
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
+<div class="ad-banner">
+        <ins class="kakao_ad_area" style="display:none;" 
+        data-ad-unit    = "DAN-1iv4aemrrz6t0" 
+        data-ad-width   = "320" 
+        data-ad-height  = "100"></ins>
+    </div>
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 s.src = 'https://webb-6.disqus.com/embed.js';
@@ -182,13 +188,6 @@ s.setAttribute('data-timestamp', +new Date());
                 default:
                     resultMessage = "미정"
             }
-            <div class="ad-banner">
-        <ins class="kakao_ad_area" style="display:none;" 
-        data-ad-unit    = "DAN-1iv4aemrrz6t0" 
-        data-ad-width   = "320" 
-        data-ad-height  = "100"></ins>
-    </div>
-    
             //$('.result-message').html(resultMessage);
             for (let i = 0; i < maxPredictions; i++) {
                 const classPrediction =
