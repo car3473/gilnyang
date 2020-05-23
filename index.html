@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
-<!--Gilnyang.com    copyright and licenses' in
-first_made:0506 2020 A1400   last_edited:0509 2020 0618
-Written by oscar3473
+<!--Gilnyang.ml    copyright and licenses' in..
+first_made:0506 2020 A1400   last_edited:0523 2020 1232
+Written by 인생잘살자
 Email : oscar050309@gmail.com -->
 <html>
     <head>
@@ -20,9 +20,8 @@ Email : oscar050309@gmail.com -->
         <meta property="og:url" content="http://gilnyang.ml">
         <!-- . -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <!-- bootstrap import -->
+        <!-- bootstrap import 부트스트랩 안하기로함, css import -->
 		<link rel="stylesheet" href="assets/css/main.css">
-		
         <link rel="stylesheet" href="style.css">
         <!-- 네이버 본인사이트 인증 -->
         <meta name="naver-site-verification" content="e4db9ca0df0ce878dded8279f8c4998ddce2be36" />
@@ -51,180 +50,174 @@ Email : oscar050309@gmail.com -->
 			<section id="banner">
 				<div class="inner">
 					<h1>길냥아 넌누구니</h1>
-					</h2> 
-            <h3>길냥아 넌도데체 누구니</h3></p>
+                    <h3>길냥아 넌도데체 누구니</h3><br>
 				</div>
 			</section>
-					<!-- <div class="highlights"> -->
-						<section class="section">
-							<h1 class="title">길냥이 종류 찾기다냥</h1>
-							<h2 class="subtitle">사진 분석하는데 시간이 좀 걸린다냥</h2>
-							<h5 class="subsubtitle">사진삭제 버튼이 뜨면 분석중이라는 거댠!</h5>
-						</section>
-						<!-- youtube / site Link
-						<section class="site">
-						<div class="mt-10 site-cover d-flex flex-row-reverse"><img src="img/cat.jpg" alt="img_cat" class="site-icon"><a href="" class="site-link">개발자 사이트가기</a></div>
-						</section>
-						-->
+			
+		<!-- 그림삽입 -->
+			<!-- <section class="site">
+				<div class="mt-10 site-cover d-flex flex-row-reverse"><img src="image-gilnyang/gilnyang.jpg" alt="gilnyang" class="site-icon"></div>
+			</section>-->
+
+		<!-- <div class="highlights"> -->
+			<section class="section">
+				<h1 class="title">길냥이 종류 찾기다냥</h1>
+				<h2 class="subtitle">사진 분석하는데 시간이 좀 걸린다냥</h2>
+				<h5 class="subsubtitle">사진삭제 버튼이 뜨면 분석중이라는 거댠!</h5>
+			</section>
 
 
-
-						<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-						<!-- 
-						<div class="container file-upload">
-						-->
-						<div class="image-upload-wrap">
-							<input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-							<div class="drag-text">
-								<h3>여기에 사진을 끌어다 놓거나, 눌러서 파일을 선택하라냥</h3>
-							</div>
-						</div>
-					
-						<div class="file-upload-content">
-							<img class="file-upload-image" id="cat-image" src="#" alt="your image" />
-							<P class="result-message"></P>
-							<div id="label-container"></div>
-							<div class="image-title-wrap">
-								<button type="button" onclick="removeUpload()" class="remove-image">사진삭제
-									<span class="image-title">사진 업로드</span>
-								</button>
-							</div>
-							</div>
-						</div>
-						<!-- 간격 -->
-						<pre>
+		<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<!-- 
+		<div class="container file-upload">
+		-->
+		<div class="image-upload-wrap">
+			<input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+			<div class="drag-text">
+				<h3>여기에 사진을 끌어다 놓거나, 눌러서 파일을 선택하라냥</h3>
+			</div>
+		</div>
+		<div class="file-upload-content">
+			<img class="file-upload-image" id="cat-image" src="#" alt="your image" />
+			<P class="result-message"></P>
+			<div id="label-container"></div>
+			<div class="image-title-wrap">
+				<button type="button" onclick="removeUpload()" class="remove-image">사진삭제
+					<span class="image-title">사진 업로드</span>
+				</button>
+			</div>
+		</div>
+		<!-- 간격 -->
+			<pre>
 					
 					
 					
 					
-						</pre>
-						<!-- 카카오에드핏 -->
-    <div class="ad-banner">
-        <ins class="kakao_ad_area" style="display:none;" 
-        data-ad-unit    = "DAN-1iv4aemrrz6t0" 
-        data-ad-width   = "320" 
-        data-ad-height  = "100"></ins>
-    </div>
-    <div id="webcam-container"></div>
-    <div id="disqus_thread"></div>
-    <!-- 댓글기능 -->
-    <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE - 댓글기능
-    var d = document, s = d.createElement('script');
-    s.src = 'https://webb-6.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-    <!-- 이미지업로드 및 보이기 -->
-    <script>
-        function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
-                reader.onload = function(e) {
-                    $('.image-upload-wrap').hide();
-                    $('.file-upload-image').attr('src', e.target.result);
-                    $('.file-upload-content').show();
-                    $('.image-title').html(input.files[0].name);
-                };
-                reader.readAsDataURL(input.files[0]);
-                init().then(()=>{
-                    console.log("hello");
-                    predict();
-                });
-            } else {
-                removeUpload();
-            }
-        }
-        function removeUpload() {
-            $('.file-upload-input').replaceWith($('.file-upload-input').clone());
-            $('.file-upload-content').hide();
-            $('.image-upload-wrap').show();
-        }
-        $('.image-upload-wrap').bind('dragover', function() {
-            $('.image-upload-wrap').addClass('image-dropping');
-        });
-        $('.image-upload-wrap').bind('dragleave', function() {
-            $('.image-upload-wrap').removeClass('image-dropping');
-        });
-    </script>
-    <!-- 분석 -->
-    <script type="text/javascript">
-        // More API functions here:
-        // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
-        // the link to your model provided by Teachable Machine export panel
-        const URL = "https://teachablemachine.withgoogle.com/models/H9AudsAad/";
-        let model, webcam, labelContainer, maxPredictions;
-        // Load the image model and setup the webcam
-        async function init() {
-            const modelURL = URL + "model.json";
-            const metadataURL = URL + "metadata.json";
-            // load the model and metadata
-            // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
-            // or files from your local hard drive
-            // Note: the pose library adds "tmImage" object to your window (window.tmImage)
-            model = await tmImage.load(modelURL, metadataURL);
-            maxPredictions = model.getTotalClasses();
-            labelContainer = document.getElementById("label-container");
-            for (let i = 0; i < maxPredictions; i++) { // and class labels
-                labelContainer.appendChild(document.createElement("div"));
-            }
-        }
-        // run the webcam image through the image model
-        async function predict() {
-            // predict can take in an image, video or canvas html element
-            var image = document.getElementById("cat-image")
-            const prediction = await model.predict(image, false);
-            prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.prediction));
-            console.log(prediction[0].className);
-            var resultMessage;
-            switch (prediction[0].className) {
-                case "고등어태비":
-                    resultMessage = "고등어태비"
-                    break;
-                case "치즈태비":
-                    resultMessage = "치즈태비"
-                    break;
-                case "카오스/삼색이":
-                    resultMessage = "카오스/삼색이"
-                    break;
-                case "턱시도":
-                    resultMessage = "턱시도"
-                    break;
-                case "올블랙":
-                    resultMessage = "올블랙"
-                    break;
-                default:
-                    resultMessage = "미정"
-            }
-            //$('.result-message').html(resultMessage);
-            for (let i = 0; i < maxPredictions; i++) {
-                const classPrediction =
-                    prediction[i].className + ": " + prediction[i].probability.toFixed(2);
-                labelContainer.childNodes[i].innerHTML = classPrediction;
-            }
-        }
-    </script>
-    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-</body>
-
-
-
+			</pre>
+		<!-- 카카오에드핏 -->
+			<div class="ad-banner">
+				<ins class="kakao_ad_area" style="display:none;" 
+				data-ad-unit    = "DAN-1iv4aemrrz6t0" 
+				data-ad-width   = "320" 
+				data-ad-height  = "100"></ins>
+			</div>
+			<div id="webcam-container"></div>
+			<div id="disqus_thread"></div>
+		<!-- 댓글기능 -->
+			<script>
+			/**
+			*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+			/*
+			var disqus_config = function () {
+			this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+			this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			};
+			*/
+			(function() { // DON'T EDIT BELOW THIS LINE - 댓글기능
+			var d = document, s = d.createElement('script');
+			s.src = 'https://webb-6.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+		<!-- 이미지업로드 및 보이기 -->
+			<script>
+				function readURL(input) {
+					if (input.files && input.files[0]) {
+						var reader = new FileReader();
+						reader.onload = function(e) {
+							$('.image-upload-wrap').hide();
+							$('.file-upload-image').attr('src', e.target.result);
+							$('.file-upload-content').show();
+							$('.image-title').html(input.files[0].name);
+						};
+						reader.readAsDataURL(input.files[0]);
+						init().then(()=>{
+							console.log("hello");
+							predict();
+						});
+					} else {
+						removeUpload();
+					}
+				}
+				function removeUpload() {
+					$('.file-upload-input').replaceWith($('.file-upload-input').clone());
+					
+					$('.file-upload-content').hide();
+					$('.image-upload-wrap').show();
+				}
+				$('.image-upload-wrap').bind('dragover', function() {
+					$('.image-upload-wrap').addClass('image-dropping');
+				});
+				$('.image-upload-wrap').bind('dragleave', function() {
+					$('.image-upload-wrap').removeClass('image-dropping');
+				});
+			</script>
+		<!-- 분석 -->
+			<script type="text/javascript">
+				// More API functions here:
+				// https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
+				// the link to your model provided by Teachable Machine export panel
+				const URL = "https://teachablemachine.withgoogle.com/models/H9AudsAad/";
+				let model, webcam, labelContainer, maxPredictions;
+				// Load the image model and setup the webcam
+				async function init() {
+					const modelURL = URL + "model.json";
+					const metadataURL = URL + "metadata.json";
+					// load the model and metadata
+					// Refer to tmImage.loadFromFiles() in the API to support files from a file picker
+					// or files from your local hard drive
+					// Note: the pose library adds "tmImage" object to your window (window.tmImage)
+					model = await tmImage.load(modelURL, metadataURL);
+					maxPredictions = model.getTotalClasses();
+					labelContainer = document.getElementById("label-container");
+					for (let i = 0; i < maxPredictions; i++) { // and class labels
+						labelContainer.appendChild(document.createElement("div"));
+					}
+				}
+				// run the webcam image through the image model
+				async function predict() {
+					// predict can take in an image, video or canvas html element
+					var image = document.getElementById("cat-image")
+					const prediction = await model.predict(image, false);
+					prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.prediction));
+					console.log(prediction[0].className);
+					var resultMessage;
+					switch (prediction[0].className) {
+						case "고등어태비":
+							resultMessage = "고등어태비"
+							break;
+						case "치즈태비":
+							resultMessage = "치즈태비"
+							break;
+						case "카오스/삼색이":
+							resultMessage = "카오스/삼색이"
+							break;
+						case "턱시도":
+							resultMessage = "턱시도"
+							break;
+						case "올블랙":
+							resultMessage = "올블랙"
+							break;
+						default:
+							resultMessage = "미정"
+					}
+					//$('.result-message').html(resultMessage);
+					for (let i = 0; i < maxPredictions; i++) {
+						const classPrediction =
+							prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+						labelContainer.childNodes[i].innerHTML = classPrediction;
+					}
+				}
+			</script>
+			<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 
 
 
@@ -236,10 +229,10 @@ Email : oscar050309@gmail.com -->
 
 					<table border="2">
 						<tr>
-							<td>출생년도 끝자리</td> <td>1,6</td> <td>2,7</td> <td>3,8</td> <td>4,9</td> <td>5,0</td> <td>전체</td>
+							<td>종류</td> <td>고등어태비</td> <td>치즈태비</td> <td>카오스/삼색이</td> <td>턱시도</td> <td>올브랙</td>
 						</tr>
 						<tr>
-							<td>요일</td> <td>월</td> <td>화</td> <td>수</td> <td>목</td> <td>금</td> <td>토,일 (주말)</td>
+							<td>특징</td> <td>가장잘볼수있는 종류</td> <td>히히히히히ㅣ</td> <td>ㅠㅠㅠㅠㅠㅠㅠㅠ</td> <td>내가 니놈의 턱시도이다!</td> <td>암란ㅇ룸나루ㅏㅁ</td>
 						</tr>
 					</table>
 					</p>
@@ -296,40 +289,38 @@ Email : oscar050309@gmail.com -->
 					</div>
 				</div>
 			</section>
-
-<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="content">
-						<section>
-							<h3>주석</h3>
-							<p>이 웹사이트의 내용은 안드로이드 apk앱 '길냥아 넌누구니'와 완전히 동일합니다.</p>
-						</section>
-						<section>
-							<h4>개발자 관련 링크</h4>
-							<ul class="alt">
-								<li><a href="https://www.google.com/search?source=hp&ei=eEpoXuylH9KJoATOmp2YAQ&q=oscar050309%40gmail.com&oq=oscar050309%40gmail.com&gs_l=psy-ab.3...5147.10496..11038...3.0..0.168.3011.0j25......0....1..gws-wiz.....0..0j0i131j0i10.OOtkY5smX5Q&ved=0ahUKEwjswdXSrZHoAhXSBIgKHU5NBxMQ4dUDCAg&uact=5">e-mail</a></li>
-								<li><a href="https://en.wikipedia.org/wiki/HTTP_404">phone-num</a></li>
-								<li><a href="https://downlaod-exe--letsbetterlifeb.repl.co">다른 프로그램들</a></li>
-								<li><a href="https://play.google.com/store/apps/developer?id=%EC%9D%B8%EC%83%9D%EC%9E%98%EC%82%B4%EC%9E%90">구글플레이스토어의 다른앱들</a></li>
-								<li><a href="https://downlaod-exe--letsbetterlifeb.repl.co" data-role="button">Download-다른웹</a></li>
-								<li></li><a href="https://car3473.github.io/webcorona/" data-role="button">WebCorona-다른웹</a></li>
-							</ul>
-						</section>
-					</div>
-					<div>
-						<br>
-						<a href = "https://www.google.com/search?source=hp&ei=P1FoXp7KFZL6-QbD8oqwDw&q=%EC%A0%95%EB%A7%90+%EC%A7%84%EC%8B%AC%EC%9C%BC%EB%A1%9C+%EC%9D%B4+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84+%EC%82%AC%EC%9A%A9%ED%95%B4%EC%A3%BC%EC%85%94%EC%84%9C+%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4.+%EC%A2%80+%ED%8A%B9%EB%B3%84%ED%95%98%EA%B2%8C+%EA%B0%90%EC%82%AC%EC%9D%98+%EC%9D%B8%EC%82%AC%EB%A5%BC+%EC%A0%84%ED%95%98%EA%B3%A0+%EC%8B%B6%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4.+%EA%B1%B4%EA%B0%95%ED%95%98%EC%84%B8%EC%9A%94%21&oq=%EC%A0%95%EB%A7%90+%EC%A7%84%EC%8B%AC%EC%9C%BC%EB%A1%9C+%EC%9D%B4+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84+%EC%82%AC%EC%9A%A9%ED%95%B4%EC%A3%BC%EC%85%94%EC%84%9C+%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4.+%EC%A2%80+%ED%8A%B9%EB%B3%84%ED%95%98%EA%B2%8C+%EA%B0%90%EC%82%AC%EC%9D%98+%EC%9D%B8%EC%82%AC%EB%A5%BC+%EC%A0%84%ED%95%98%EA%B3%A0+%EC%8B%B6%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4.+%EA%B1%B4%EA%B0%95%ED%95%98%EC%84%B8%EC%9A%94%21&gs_l=psy-ab.3...3564.44461..45079...63.0..15.181.21406.3j168......0....1..gws-wiz.....0..0i131j0j0i10j0i13i70i249j0i13j0i70i249j0i30j33i160j0i13i30j33i21.lGcE4hls_bs&ved=0ahUKEwje5fONtJHoAhUSfd4KHUO5AvYQ4dUDCAg&uact=5"> 
-							개발자  :  인생잘살자 - lets better life </a>
-					</div>
+	</body>
+	<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<div class="content">
+					<section>
+						<h3>주석</h3>
+						<p>이 웹사이트의 내용은 안드로이드 apk앱 '길냥아 넌누구니'와 완전히 동일합니다.</p>
+					</section>
+					<section>
+						<h4>개발자 관련 링크</h4>
+						<ul class="alt">
+							<li><a href="https://www.google.com/search?source=hp&ei=eEpoXuylH9KJoATOmp2YAQ&q=oscar050309%40gmail.com&oq=oscar050309%40gmail.com&gs_l=psy-ab.3...5147.10496..11038...3.0..0.168.3011.0j25......0....1..gws-wiz.....0..0j0i131j0i10.OOtkY5smX5Q&ved=0ahUKEwjswdXSrZHoAhXSBIgKHU5NBxMQ4dUDCAg&uact=5">e-mail</a></li>
+							<li><a href="https://en.wikipedia.org/wiki/HTTP_404">phone-num</a></li>
+							<li><a href="https://downlaod-exe--letsbetterlifeb.repl.co">다른 프로그램들</a></li>
+							<li><a href="https://play.google.com/store/apps/developer?id=%EC%9D%B8%EC%83%9D%EC%9E%98%EC%82%B4%EC%9E%90">구글플레이스토어의 다른앱들</a></li>
+							<li><a href="https://downlaod-exe--letsbetterlifeb.repl.co" data-role="button">Download-다른웹</a></li>
+							<li></li><a href="https://car3473.github.io/webcorona/" data-role="button">WebCorona-다른웹</a></li>
+						</ul>
+					</section>
 				</div>
-			</footer>
-
+				<div>
+					<br>
+					<a href = "https://www.google.com/search?source=hp&ei=P1FoXp7KFZL6-QbD8oqwDw&q=%EC%A0%95%EB%A7%90+%EC%A7%84%EC%8B%AC%EC%9C%BC%EB%A1%9C+%EC%9D%B4+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84+%EC%82%AC%EC%9A%A9%ED%95%B4%EC%A3%BC%EC%85%94%EC%84%9C+%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4.+%EC%A2%80+%ED%8A%B9%EB%B3%84%ED%95%98%EA%B2%8C+%EA%B0%90%EC%82%AC%EC%9D%98+%EC%9D%B8%EC%82%AC%EB%A5%BC+%EC%A0%84%ED%95%98%EA%B3%A0+%EC%8B%B6%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4.+%EA%B1%B4%EA%B0%95%ED%95%98%EC%84%B8%EC%9A%94%21&oq=%EC%A0%95%EB%A7%90+%EC%A7%84%EC%8B%AC%EC%9C%BC%EB%A1%9C+%EC%9D%B4+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84+%EC%82%AC%EC%9A%A9%ED%95%B4%EC%A3%BC%EC%85%94%EC%84%9C+%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4.+%EC%A2%80+%ED%8A%B9%EB%B3%84%ED%95%98%EA%B2%8C+%EA%B0%90%EC%82%AC%EC%9D%98+%EC%9D%B8%EC%82%AC%EB%A5%BC+%EC%A0%84%ED%95%98%EA%B3%A0+%EC%8B%B6%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4.+%EA%B1%B4%EA%B0%95%ED%95%98%EC%84%B8%EC%9A%94%21&gs_l=psy-ab.3...3564.44461..45079...63.0..15.181.21406.3j168......0....1..gws-wiz.....0..0i131j0j0i10j0i13i70i249j0i13j0i70i249j0i30j33i160j0i13i30j33i21.lGcE4hls_bs&ved=0ahUKEwje5fONtJHoAhUSfd4KHUO5AvYQ4dUDCAg&uact=5"> 
+						개발자  :  인생잘살자 - lets better life </a>
+				</div>
+			</div>
+		</footer>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-	</body>
 </html>
