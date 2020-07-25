@@ -29,14 +29,50 @@ Email : oscar050309@gmail.com -->
     </head>
 
 
+
+
 	<body class="is-preload">
 		<!-- Header -->
 			<header id="header">
 				<a class="logo" href="https://gilnyang.ml">길냥아 넌누구니</a>
+
+
+
+				<a  href="void(0);" id="box1" 
+				onclick="alert('다시 보이게 하고싶으시면 F5를 눌러서 재접속해주세영!');return false;" 
+				onclick="document.getElementById("disqus_thread").style.display = "none";"
+				onclick="document.getElementById("webcam-container").style.display = "none";"
+				>부가기능 숨기기</a>
+
+
+
+				<a href="https://www.google.com" id="box2" target="blank" style="margin-left: 10%">집값대란 경기도까지 번져..     중국 댐 붕괴조짐...</a>
 				<nav>
 					<a href="#menu">메뉴</a>
 				</nav>
 			</header>
+
+
+			<style>
+				.logo {
+					font-family: D2Coding;
+					font-style: bold;
+				}
+				#box1{
+					text-decoration: none;
+				}
+				#box2{
+					margin-top: auto;
+					margin-left: auto;
+					margin-right: auto;
+					color: white;
+					text-decoration: none;
+				}
+			</style>
+
+
+
+
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
@@ -46,14 +82,38 @@ Email : oscar050309@gmail.com -->
 					<li><a href="/aboutmaker.html">주석</a></li>
 				</ul>
 			</nav>
-		<!-- Banner -->
+		
+		
+		
+		
+
+		<!-- 카카오에드핏 -->
+		<div class="ad-banner">
+			<ins class="kakao_ad_area" style="display:none;" 
+			data-ad-unit    = "DAN-1iv4aemrrz6t0" 
+			data-ad-width   = "320" 
+			data-ad-height  = "100"></ins>
+		</div>
+		<!-- <style>
+			.ad-banner {
+				width: 320px;
+				height: 100px;
+			}
+		</style> -->
+
+
+			<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
 					<h1>길냥아 넌누구니</h1>
-                    <h3>길냥아 넌도데체 누구니</h3><br>
+                    <h2>길냥아 넌 도대체 누구인거니</h2><br>
 				</div>
 			</section>
-			
+
+
+
+
+
 		<!-- 그림삽입 -->
 			<!-- <section class="site">
 				<div class="mt-10 site-cover d-flex flex-row-reverse"><img src="image-gilnyang/gilnyang.jpg" alt="gilnyang" class="site-icon"></div>
@@ -63,7 +123,7 @@ Email : oscar050309@gmail.com -->
 			<section class="section">
 				<h1 class="title">길냥이 종류 찾기다냥</h1>
 				<h2 class="subtitle">사진 분석하는데 시간이 좀 걸린다냥</h2>
-				<h5 class="subsubtitle">사진삭제 버튼이 뜨면 분석중이라는 거댠!</h5>
+				<h4 class="subsubtitle">사진삭제 버튼이 뜨면 분석중이라는 거댠!</h4>
 			</section>
 
 
@@ -77,6 +137,7 @@ Email : oscar050309@gmail.com -->
 				<h3>여기에 사진을 끌어다 놓거나, 눌러서 파일을 선택하라냥</h3>
 			</div>
 		</div>
+		
 		<div class="file-upload-content">
 			<img class="file-upload-image" id="cat-image" src="#" alt="your image" />
 			<P class="result-message"></P>
@@ -87,6 +148,8 @@ Email : oscar050309@gmail.com -->
 				</button>
 			</div>
 		</div>
+		
+		
 		<!-- 간격 -->
 			<pre>
 					
@@ -94,16 +157,15 @@ Email : oscar050309@gmail.com -->
 					
 					
 			</pre>
-		<!-- 카카오에드핏 -->
-			<div class="ad-banner">
-				<ins class="kakao_ad_area" style="display:none;" 
-				data-ad-unit    = "DAN-1iv4aemrrz6t0" 
-				data-ad-width   = "320" 
-				data-ad-height  = "100"></ins>
-			</div>
+		
+		
+		
+
 			<div id="webcam-container"></div>
 			<div id="disqus_thread"></div>
-		<!-- 댓글기능 -->
+
+
+			<!-- 댓글기능 -->
 			<script>
 			/**
 			*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -127,7 +189,9 @@ Email : oscar050309@gmail.com -->
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 			<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-		<!-- 이미지업로드 및 보이기 -->
+		
+		
+			<!-- 이미지업로드 및 보이기 -->
 			<script>
 				function readURL(input) {
 					if (input.files && input.files[0]) {
@@ -313,7 +377,7 @@ Email : oscar050309@gmail.com -->
 				<div>
 					<br>
 					<a href = "https://www.google.com/search?source=hp&ei=P1FoXp7KFZL6-QbD8oqwDw&q=%EC%A0%95%EB%A7%90+%EC%A7%84%EC%8B%AC%EC%9C%BC%EB%A1%9C+%EC%9D%B4+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84+%EC%82%AC%EC%9A%A9%ED%95%B4%EC%A3%BC%EC%85%94%EC%84%9C+%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4.+%EC%A2%80+%ED%8A%B9%EB%B3%84%ED%95%98%EA%B2%8C+%EA%B0%90%EC%82%AC%EC%9D%98+%EC%9D%B8%EC%82%AC%EB%A5%BC+%EC%A0%84%ED%95%98%EA%B3%A0+%EC%8B%B6%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4.+%EA%B1%B4%EA%B0%95%ED%95%98%EC%84%B8%EC%9A%94%21&oq=%EC%A0%95%EB%A7%90+%EC%A7%84%EC%8B%AC%EC%9C%BC%EB%A1%9C+%EC%9D%B4+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84+%EC%82%AC%EC%9A%A9%ED%95%B4%EC%A3%BC%EC%85%94%EC%84%9C+%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4.+%EC%A2%80+%ED%8A%B9%EB%B3%84%ED%95%98%EA%B2%8C+%EA%B0%90%EC%82%AC%EC%9D%98+%EC%9D%B8%EC%82%AC%EB%A5%BC+%EC%A0%84%ED%95%98%EA%B3%A0+%EC%8B%B6%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4.+%EA%B1%B4%EA%B0%95%ED%95%98%EC%84%B8%EC%9A%94%21&gs_l=psy-ab.3...3564.44461..45079...63.0..15.181.21406.3j168......0....1..gws-wiz.....0..0i131j0j0i10j0i13i70i249j0i13j0i70i249j0i30j33i160j0i13i30j33i21.lGcE4hls_bs&ved=0ahUKEwje5fONtJHoAhUSfd4KHUO5AvYQ4dUDCAg&uact=5"> 
-						개발자  :  인생잘살자 - lets better life </a>
+						개발자  :  인생잘살자 - 김민찬 </a>
 				</div>
 			</div>
 		</footer>
