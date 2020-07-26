@@ -34,15 +34,17 @@ Email : oscar050309@gmail.com -->
 	<body class="is-preload">
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="https://gilnyang.ml">길냥아 넌누구니</a>
+				<a class="logo" href="https://www.gilnyang.ml">길냥아 넌누구니</a>
 
 
 
-				<a  href="void(0);" id="box1" 
-				onclick="alert('다시 보이게 하고싶으시면 F5를 눌러서 재접속해주세영!');return false;" 
-				onclick="document.getElementById("disqus_thread").style.display = "none";"
-				onclick="document.getElementById("webcam-container").style.display = "none";"
-				>부가기능 숨기기</a>
+			<input type="button" id="box1" onclick="btn1();" value="부가기능 숨기기" />
+			<script>
+			function btn1() {
+				alert("다시 보이게 하고싶으시면 F5를 눌러서 재접속해주세영!");
+				document.getElementById("disqus_thread").style.display = "none";
+			}
+			</script>
 
 
 
@@ -76,10 +78,10 @@ Email : oscar050309@gmail.com -->
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">길냥아 넌누구니</a></li>
-					<li><a href="eng.html">English - Language Change</a></li>
+					<li><a href="index.html">길냥아 넌누구니 (홈페이지)</a></li>
+					<li><a href="eng.html">English Ver <br>(Only Homepage Support)</a></li>
 					<li><a href="/cafe.html">냥카페</a></li>
-					<li><a href="/aboutmaker.html">주석</a></li>
+					<li><a href="/aboutmaker.html">개발자</a></li>
 				</ul>
 			</nav>
 		
